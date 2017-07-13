@@ -3049,3 +3049,10 @@
 <?php exit;?>07-09 16:43:18 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\template\file.php | 263
 <?php exit;?>07-09 16:50:56 | 2048 | Only variables should be passed by reference | caches\caches_template\healstec\header.php | 54
 <?php exit;?>07-09 16:51:05 | 2048 | Only variables should be passed by reference | caches\caches_template\healstec\header.php | 54
+<?php exit;?>07-14 00:11:38 | 2 | Missing argument 2 for category::delete_child(), called in D:\work\www\reafe\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>07-14 00:11:42 | 2 | Missing argument 2 for category::delete_child(), called in D:\work\www\reafe\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>07-14 00:11:46 | 2 | Missing argument 2 for category::delete_child(), called in D:\work\www\reafe\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>07-14 00:11:49 | 2 | Missing argument 2 for category::delete_child(), called in D:\work\www\reafe\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>07-14 00:11:53 | 2 | Missing argument 2 for category::delete_child(), called in D:\work\www\reafe\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>07-14 00:12:01 | 2 | Missing argument 2 for category::delete_child(), called in D:\work\www\reafe\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
+<?php exit;?>07-14 00:12:15 | 2 | Missing argument 2 for category::delete_child(), called in D:\work\www\reafe\phpcms\modules\admin\category.php on line 351 and defined | phpcms\modules\admin\category.php | 346
