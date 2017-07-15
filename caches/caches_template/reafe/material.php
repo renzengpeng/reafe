@@ -48,7 +48,7 @@
                       <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=43068c2d3edf406e3557b5e183c53b40&action=category&catid=%24r%5B%27catid%27%5D&num=6&siteid=%24siteid&order=listorder+ASC&return=data1\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'category')) {$data1 = $content_tag->category(array('catid'=>$r['catid'],'siteid'=>$siteid,'order'=>'listorder ASC','limit'=>'6',));}?>
                       <?php $n=1;if(is_array($data1)) foreach($data1 AS $r1) { ?>
                       <div class="col-md-4 item-box text-center">
-                          <img src="<?php echo $r1['image'];?>">
+                          <img src="<?php echo $r1['image'];?>" <?php if($r1['catid']=='88') { ?>style="width: 150px;"<?php } ?>>
                           <h4><?php echo $r1['catname'];?></h4>
                           <p class='text-left'><?php echo $r['description'];?>
                           </p>

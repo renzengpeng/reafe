@@ -48,7 +48,7 @@
                       {pc:content action="category" catid="$r['catid']" num="6" siteid="$siteid" order="listorder ASC" return="data1"}
                       {loop $data1 $r1}
                       <div class="col-md-4 item-box text-center">
-                          <img src="{$r1['image']}">
+                          <img src="{$r1['image']}" {if $r1['catid']=='88'}style="width: 150px;"{/if}>
                           <h4>{$r1['catname']}</h4>
                           <p class='text-left'>{$r['description']}
                           </p>

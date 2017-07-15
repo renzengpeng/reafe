@@ -7,9 +7,9 @@ return array (
   'mail_server' => 'smtp.qq.com',
   'mail_port' => '25',
   'category_ajax' => '0',
-  'mail_user' => 'healstec@foxmail.com',
+  'mail_user' => 'reafe@foxmail.com',
   'mail_auth' => '1',
-  'mail_from' => 'healstec@foxmail.com',
+  'mail_from' => 'reafe@foxmail.com',
   'mail_password' => '',
   'errorlog_size' => '20',
 );

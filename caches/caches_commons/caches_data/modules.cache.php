@@ -8,7 +8,7 @@ return array (
     'iscore' => '1',
     'version' => '1.0',
     'description' => '',
-    'setting' => '{"admin_email":"phpcms@phpcms.cn","maxloginfailedtimes":"8","minrefreshtime":"2","mail_type":"1","mail_server":"smtp.qq.com","mail_port":"25","category_ajax":"0","mail_user":"healstec@foxmail.com","mail_auth":"1","mail_from":"healstec@foxmail.com","mail_password":"","errorlog_size":"20"}',
+    'setting' => '{"admin_email":"phpcms@phpcms.cn","maxloginfailedtimes":"8","minrefreshtime":"2","mail_type":"1","mail_server":"smtp.qq.com","mail_port":"25","category_ajax":"0","mail_user":"reafe@foxmail.com","mail_auth":"1","mail_from":"reafe@foxmail.com","mail_password":"","errorlog_size":"20"}',
     'listorder' => '0',
     'disabled' => '0',
     'installdate' => '2010-10-18',
