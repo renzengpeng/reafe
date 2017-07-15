@@ -1,0 +1,47 @@
+<footer class="footer style-2">
+    <div class="container">
+        <div class="row">
+            {php $arr=['97','98','99','100']}
+            {loop $arr $ak $v}
+            <div class="col-md-2 col-xs-6">
+                <div class="col">
+                    {pc:get sql="select * from hl_category where catid='$v'"  return="data1"}
+                    <h4>{$data1[0]['catname']}</h4>
+                    {/pc}
+                    <ul>
+                        {pc:content action="lists" catid="$v" order="listorder DESC" moreinfo="1" num="5" }
+                        {loop $data $k $r}
+                        <li><a href="{$r['url']}">{$r['title']}</a></li>
+                        {/loop}
+                        {/pc}
+                    </ul>
+                </div>
+            </div>
+        {/loop}
+
+
+            {pc:get sql="select * from hl_category where catid='101'"  return="data1"}
+            <div class="col-md-2 col-xs-6">
+                <div class="col">
+                    <img src="{$data1[0]['image']}" class="img-responsive img-thumbnail"  style='width:100px;height100px;'>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-xs-6">
+                <div class="col">
+                    <img src="{$data1[0]['image1']}" class="img-responsive img-thumbnail" style='width:100px;height100px;'>
+                </div>
+            </div>
+            {/pc}
+
+
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src='{JS_PATH}reafe/lib/jquery-3.1.1.js'></script>
+<script src="{JS_PATH}reafe/lib/dist/js/bootstrap.min.js"></script>
+
+
+</html>

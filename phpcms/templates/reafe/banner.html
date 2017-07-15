@@ -1,0 +1,12 @@
+{pc:get sql="select * from hl_category where catid='$catid'"  return="data"}
+<div class='banner'>
+    <div class="jumbotron">
+
+        <img src="{$data[0]['image']}" alt="">
+
+        <div class="mask hidden-xs {if $data[0]['catid']!='57'}hidden{/if}">
+           {$data[0]['description']}</div>
+    </div>
+</div>
+
+{/pc}

@@ -1,0 +1,37 @@
+{template "","header"}
+  <link rel="stylesheet" href="{CSS_PATH}reafe/blogpage.css">
+</head>
+
+<body>
+  <!-- top -->
+  {template "","nav"}
+  <!-- top-end -->
+  {template "","banner"}
+  <!-- banner-end -->
+  <!-- content -->
+  <div class="content">
+    <div class="container">
+      <h3>{$title}</h3>
+      <p><small>转载</small><small>{$inputtime}</small></p>
+      <div class="text-box">
+          {$content}
+
+      </div>
+      <nav aria-label="">
+        <ul class="pager">
+            {pc:get sql="select * from hl_news  where id>'$id' and catid='$catid' order by listorder,id asc " return="data"  num="1"}
+
+            <li class="previous"><a href="{$data[0]['url']}"><span aria-hidden="true">&larr;</span>上一篇</a></li>
+            {/pc}
+            {pc:get sql="select * from hl_news  where id<'$id' and catid='$catid' order by listorder,id desc " return="data1" num="1"}
+
+            <li class="next"><a href="{$data1[0]['url']}">下一篇<span aria-hidden="true">&rarr;</span></a></li>
+            {/pc}
+        </ul>
+      </nav>
+    </div>
+    <!-- .content .container end -->
+  </div>
+  <!-- content-end -->
+  <!-- footer -->
+  {template "","footer"}

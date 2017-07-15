@@ -1,0 +1,44 @@
+{template "","header"}
+  <link rel="stylesheet" href="{CSS_PATH}reafe/blog.css">
+</head>
+
+<body>
+{template "","nav"}
+{template "","banner"}
+  <!-- banner-end -->
+  <!-- content -->
+  <div class="content">
+    <div class="container">
+      <h3>文章列表</h3>
+      <ul class="nav nav-tabs">
+        <li class="active"><a  data-toggle="tab" data-target="#tabOne" aria-expanded="true">所有文章</a></li>
+        <!--<li><a  data-toggle="tab" data-target="#tabTwo">分类列表</a></li>-->
+    　</ul>
+      <div class="tab-content">
+           <div class="tab-pane  fade in active" id="tabOne">
+               <div class="articleBox row">
+                   {pc:content action="lists" catid="59" order="listorder DESC" moreinfo="1" num="6" page="$page"}
+                   {loop $data $k $r}
+                   <a href="{$r['url']}">
+                   <div class="col-md-6 articleItem"><img src="{$r['thumb']}" alt="">
+                       <h4>{$r['title']}</h4>
+                       <p class='text-gray'>{$r['description']}</p>
+                   </div>
+                   </a>
+                   {/loop}
+                   {/pc}
+               </div>
+               <nav aria-label="Page navigation" class='text-center'>
+                <ul class="pagination">
+                    {$pages_new}
+                </ul>
+              </nav>
+           </div>
+
+       </div>
+    </div>
+    <!-- .content .container end -->
+  </div>
+  <!-- content-end -->
+  <!-- footer -->
+{template "","footer"}

@@ -1,0 +1,64 @@
+{template "","header"}
+  <link rel="stylesheet" href="{CSS_PATH}reafe/brandidel.css">
+</head>
+
+<body>
+{template "","nav"}
+{template "","banner"}
+  <div class="jumbotron hidden-xs md1">
+    <div class="container">
+        {pc:get sql="select * from hl_page where catid='70'"  return="data"}
+        <h1>{$data[0]['title']}</h1>
+        <p>{$data[0]['content']}
+        </p>
+        {/pc}
+
+    </div>
+  </div>
+  <div class="content">
+    <div class="md1">
+      <div class="container visible-xs">
+        <h1>__</h1>
+        <h1>Reafe</h1>
+        <p>将专注赋予行动 以诚信铸造产品 用心呵护 用爱灌盖.</p>
+      </div>
+    </div>
+    <div class="md2">
+      <div class="md2-list">
+        <div class="container">
+          <div class="row">
+              {pc:content action="category" catid="57" num="4" siteid="$siteid" order="listorder ASC"}
+              {loop $data $r}
+              <div class="md2-item col-xs-12 col-lg-6">
+                  <div class="img-box">
+                      <img src="{$r['image']}" alt="">
+                      <div class="mask">{$r['catname']}</div>
+                  </div>
+
+                  <h3>{$r['catname']}</h3>
+                  <p>
+                      {$r['description']}
+                  </p>
+              </div>
+              {/loop}
+              {/pc}
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="md3">
+      <div class="container">
+          {pc:get sql="select * from hl_page where catid='75'"  return="data"}
+          <div class="md3-title">
+              <h3>{$data[0]['title']}</h3>
+          </div>
+          <div class="md3-article">
+              {$data[0]['content']}
+          </div>
+          {/pc}
+
+      </div>
+    </div>
+  </div>
+{template "","footer"}

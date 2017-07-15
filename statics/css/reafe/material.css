@@ -1,0 +1,260 @@
+.reafenav {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  border-bottom: 0;
+  margin-bottom: 0;
+  transition:all 1s;
+}
+.reafenav .navbar-brand {
+  color: #777;
+  height: 80px;
+  line-height: 50px;
+}
+.reafenav .navbar-brand:hover,
+.reafenav .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.reafenav .navbar-text {
+  color: #777;
+}
+.reafenav .navbar-nav > li > a {
+  /*color: #777;*/
+  color: #000;
+  height: 80px;
+  line-height: 50px;
+  margin-left: 60px;
+}
+.reafenav .navbar-nav > li > a:hover,
+.reafenav .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+  border-bottom: 2px solid #FACB87;
+}
+.reafenav .navbar-nav > .active > a,
+.reafenav .navbar-nav > .active > a:hover,
+.reafenav .navbar-nav > .active > a:focus {
+  /*color: #555;*/
+  color: #000;
+  border-bottom: 2px solid #FACB87;
+}
+.reafenav .navbar-nav > .disabled > a,
+.reafenav .navbar-nav > .disabled > a:hover,
+.reafenav .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.reafenav .navbar-toggle {
+  border-color: #ddd;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.reafenav .navbar-toggle:hover,
+.reafenav .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.reafenav .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.reafenav .navbar-collapse,
+.reafenav .navbar-form {
+  border-color: #e7e7e7;
+}
+.reafenav .navbar-nav > .open > a,
+.reafenav .navbar-nav > .open > a:hover,
+.reafenav .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .reafenav .navbar-nav > li > a{
+    margin-left: 0;
+  }
+  .reafenav .navbar-nav > .active > a,
+  .reafenav .navbar-nav > .active > a:hover,
+  .reafenav .navbar-nav > .active > a:focus {
+    /*color: #555;*/
+    color: #000;
+    border-bottom: none;
+  }
+  .reafenav .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .reafenav .navbar-nav .open .dropdown-menu > li > a:hover,
+  .reafenav .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .reafenav .navbar-nav .open .dropdown-menu > .active > a,
+  .reafenav .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .reafenav .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .reafenav .navbar-nav .open .dropdown-menu > .disabled > a,
+  .reafenav .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .reafenav .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.reafenav .navbar-link {
+  color: #777;
+}
+.reafenav .navbar-link:hover {
+  color: #333;
+}
+.reafenav .btn-link {
+  color: #777;
+}
+.reafenav .btn-link:hover,
+.reafenav .btn-link:focus {
+  color: #333;
+}
+.reafenav .btn-link[disabled]:hover,
+fieldset[disabled] .reafenav .btn-link:hover,
+.reafenav .btn-link[disabled]:focus,
+fieldset[disabled] .reafenav .btn-link:focus {
+  color: #ccc;
+}
+
+
+/*nav----------------------------------------------*/
+.top .logo{
+  background: url('http://reafe.itcask.com/statics/images/reafe/logo.png') center center no-repeat;
+  width: 200px;
+}
+.banner .jumbotron{
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  margin-bottom: 0;
+}
+.banner .jumbotron img{
+  width: 100%;
+  /*height: 700px;*/
+  /*background: url('http://reafe.itcask.com/statics/images/reafe/brandidel/banner2.png') center center no-repeat;*/
+}
+
+.banner .mask{
+  position: absolute;
+  font-size: 30px;
+  line-height: 60px;;
+  text-align: center;
+  width: 800px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -125px;
+  background-color: rgba(255,255,255,.3);
+  padding-top: 60px;
+  box-sizing: border-box;
+  color: #FACB87;
+}
+
+/*手风琴组件*/
+.panel-heading {
+  padding: 10px 15px;
+  height: 240px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.panel-heading .container{
+  height: 100%;
+}
+.panel-heading .container .row{
+  height: 100%;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.content .panel-group .material-icon{
+  height: 100px;
+  margin-top: 70px;
+}
+.content .panel-group .mat-text{
+  height: 100%;
+
+}
+.content .panel-group .mat-text h3{
+  margin-top: 70px;
+}
+
+.content .panel-group .mat-button{
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 80px auto 0px;
+  background: 0 0/50px 50px no-repeat;
+}
+.content .panel-group .mat-button.add0{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/add0.png');
+}
+.content .panel-group .mat-button.add1{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/add1.png');
+}
+.content .panel-group .mat-button.add2{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/add2.png');
+}
+.content .panel-group .mat-button.add3{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/add3.png');
+}
+.content .panel-group .mat-button.add4{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/add4.png');
+}
+.content .panel-group .mat-button.add5{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/add5.png');
+}
+.content .panel-group .mat-button.red0{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/red0.png');
+}
+.content .panel-group .mat-button.red1{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/red1.png');
+}
+.content .panel-group .mat-button.red2{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/red2.png');
+}
+.content .panel-group .mat-button.red3{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/red3.png');
+}
+.content .panel-group .mat-button.red4{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/red4.png');
+}
+.content .panel-group .mat-button.red5{
+  background-image: url('http://reafe.itcask.com/statics/images/reafe/material/red5.png');
+}
+.content .panel-group .panel-body .row{
+  padding-top: 20px;
+}
+.content .panel-group .panel-body .item-box{
+  padding: 0 30px;
+  height: 220px;
+}
+.content .panel-group .panel-body .item-box img{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+.content .panel-group .panel-body .item-box h4{
+  color: #000;
+}
+.content .panel-group .panel-body .item-box p{
+  color: #666;
+}
+footer.style-2 {
+    background: #333;
+    color: #fff;
+}
+footer.style-2>div{
+  color: #fff;
+}
+footer.style-2>div a{
+  color: #fff;
+}
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #fff;
+}

@@ -57,7 +57,7 @@ var pc_hash = '<?php echo $_SESSION['pc_hash']?>'
         <input type="submit" class="submit" value="&nbsp;" name="dosubmit" onclick="check_screenlock();return false;">
     </div></div>
 </div>
-<div class="header">
+<div class="header" style="background: #ffffff;color: black">
 	<div class="logo lf"><a href="<?php echo $currentsite['domain']?>" target="_blank"><span class="invisible">Healstec</span></a></div>
     <div class="rt-col">
     	<div class="tab_style white cut_line text-r"></a>
@@ -70,12 +70,12 @@ var pc_hash = '<?php echo $_SESSION['pc_hash']?>'
         </div>
     </div>
     <div class="col-auto">
-    	<div class="log white cut_line"><?php echo L('hello'),$admin_username?>  [<?php echo $rolename?>]<span>|</span><a href="?m=admin&c=index&a=public_logout">[<?php echo L('exit')?>]</a><span>|</span>
+    	<div class="log black cut_line"><?php echo L('hello'),$admin_username?>  [<?php echo $rolename?>]<span>|</span><a href="?m=admin&c=index&a=public_logout">[<?php echo L('exit')?>]</a><span>|</span>
     		<a href="<?php echo $currentsite['domain']?>" target="_blank" id="site_homepage"><?php echo L('site_homepage')?></a>
 
 
     	</div>
-        <ul class="nav white" id="top_menu">
+        <ul class="nav black" id="top_menu">
         <?php
         $array = admin::admin_menu(0);
         foreach($array as $_value) {
@@ -91,7 +91,7 @@ var pc_hash = '<?php echo $_SESSION['pc_hash']?>'
         </ul>
     </div>
 </div>
-<div id="content">
+<div id="content" style="border-top:1px solid #d4e9fe;">
 	<div class="col-left left_menu">
     	<div id="Scroll"><div id="leftMain"></div></div>
         <a href="javascript:;" id="openClose" style="outline-style: none; outline-color: invert; outline-width: medium;" hideFocus="hidefocus" class="open" title="<?php echo L('spread_or_closed')?>"><span class="hidden"><?php echo L('expand')?></span></a>
