@@ -4,8 +4,8 @@
 
         <img src="{$data[0]['image']}" alt="">
 
-        <div class="mask hidden-xs hidden">
-            <img src="{IMG_PATH}reafe/logo2.png" alt=""></div>
+        <div class="mask hidden-xs {if $data[0]['catid']!='57'}hidden{/if}">
+           {$data[0]['description']}</div>
     </div>
 </div>
 

@@ -200,7 +200,7 @@ class index {
 		if(empty($next_page)) {
 			$next_page = array('title'=>L('last_page'), 'thumb'=>IMG_PATH.'nopic_small.gif', 'url'=>'javascript:alert(\''.L('last_page').'\');');
 		}
-		include template('content',$template);
+		include template('','blogpage');
 	}
 	//列表页
 	public function lists() {
@@ -230,6 +230,7 @@ class index {
 		$SEO = seo($siteid, '',$setting['meta_title'],$setting['meta_description'],$setting['meta_keywords']);
 		define('STYLE',$setting['template_list']);
 		$page = intval($_GET['page']);
+
 
 		$template = $setting['category_template'] ? $setting['category_template'] : 'category';
 		$template_list = $setting['list_template'] ? $setting['list_template'] : 'list';
@@ -262,6 +263,19 @@ class index {
 			$GLOBALS['URL_ARRAY']['categorydir'] = $categorydir;
 			$GLOBALS['URL_ARRAY']['catdir'] = $catdir;
 			$GLOBALS['URL_ARRAY']['catid'] = $catid;
+            if($catid=='57'){
+                include template('','brandidel');die;
+            }
+            if($catid=='58'){
+                include template('','material');die;
+            }
+            if($catid=='59'){
+                include template('','blog');die;
+            }
+            if(in_array($catid,['66','67','68'] )){
+                include template('','productdetail');die;
+            }
+            die;
 			include template('content',$template);
 		} else {
 		//单网页

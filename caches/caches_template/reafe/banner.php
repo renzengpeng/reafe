@@ -4,8 +4,8 @@
 
         <img src="<?php echo $data['0']['image'];?>" alt="">
 
-        <div class="mask hidden-xs hidden">
-            <img src="<?php echo IMG_PATH;?>reafe/logo2.png" alt=""></div>
+        <div class="mask hidden-xs <?php if($data[0]['catid']!='57') { ?>hidden<?php } ?>">
+           <?php echo $data['0']['description'];?></div>
     </div>
 </div>
 

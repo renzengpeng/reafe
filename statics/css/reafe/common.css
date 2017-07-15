@@ -21,7 +21,7 @@ body{
 	float: left;
 	width: 200px;
 	height: 100%;
-	background: url("../image/logo.png") 0px 10px no-repeat;
+	background: url("http://reafe.itcask.com/statics/images/reafe/logo.png") 0px 10px no-repeat;
 }
 .top .w .nav{
 	float: right;
@@ -50,7 +50,7 @@ body{
 	height: 580px;
 	padding: 80px 50px;
 	background-color: skyblue;
-	background: url('../image/link-bg.png') no-repeat;
+	background: url('http://reafe.itcask.com/statics/images/reafe/link-bg.png') no-repeat;
 	background-size: 100% 100%;
 	box-sizing: border-box;
 	color: #262626;
