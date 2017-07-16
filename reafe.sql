@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2017-07-16 11:26:25
+Date: 2017-07-16 11:42:52
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -4869,7 +4869,7 @@ CREATE TABLE `hl_log` (
   PRIMARY KEY (`logid`),
   KEY `module` (`module`,`file`,`action`),
   KEY `username` (`username`,`action`)
-) ENGINE=MyISAM AUTO_INCREMENT=1456 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1459 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of hl_log
@@ -6329,6 +6329,9 @@ INSERT INTO `hl_log` VALUES ('1452', '', '0', 'content', '', 'content', '?m=cont
 INSERT INTO `hl_log` VALUES ('1453', '', '0', 'content', '', 'content', '?m=content&c=content&a=add', '', '1', 'reafe', '127.0.0.1', '2017-07-16 11:23:58');
 INSERT INTO `hl_log` VALUES ('1454', '', '0', 'content', '', 'content', '?m=content&c=content&a=edit', '', '1', 'reafe', '127.0.0.1', '2017-07-16 11:24:06');
 INSERT INTO `hl_log` VALUES ('1455', '', '0', 'content', '', 'content', '?m=content&c=content&a=add', '', '1', 'reafe', '127.0.0.1', '2017-07-16 11:25:06');
+INSERT INTO `hl_log` VALUES ('1456', '', '0', 'collection', '', 'node', '?m=collection&c=node&a=manage', '', '1', 'reafe', '127.0.0.1', '2017-07-16 11:42:30');
+INSERT INTO `hl_log` VALUES ('1457', '', '0', 'comment', '', 'comment_admin', '?m=comment&c=comment_admin&a=listinfo', '', '1', 'reafe', '127.0.0.1', '2017-07-16 11:42:31');
+INSERT INTO `hl_log` VALUES ('1458', '', '0', 'content', '', 'create_html', '?m=content&c=create_html&a=category', '', '1', 'reafe', '127.0.0.1', '2017-07-16 11:42:32');
 
 -- ----------------------------
 -- Table structure for `hl_member`
@@ -7945,7 +7948,7 @@ CREATE TABLE `hl_session` (
 -- ----------------------------
 -- Records of hl_session
 -- ----------------------------
-INSERT INTO `hl_session` VALUES ('12121jtsia5jomfd4jkq4tm072', '1', '127.0.0.1', '1500175587', '1', '0', 'admin', 'index', 'public_session_life', 'code|s:0:\"\";userid|s:1:\"1\";roleid|s:1:\"1\";pc_hash|s:6:\"DCLvRB\";lock_screen|i:0;');
+INSERT INTO `hl_session` VALUES ('12121jtsia5jomfd4jkq4tm072', '1', '127.0.0.1', '1500176552', '1', '0', 'content', 'create_html', 'category', 'code|s:0:\"\";userid|s:1:\"1\";roleid|s:1:\"1\";pc_hash|s:6:\"DCLvRB\";lock_screen|i:0;');
 
 -- ----------------------------
 -- Table structure for `hl_site`

@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logo" href="#"></a>
+                <a class="navbar-brand logo" href="/"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -17,7 +17,7 @@
                     {pc:content action="category" catid="0" num="4" siteid="$siteid" order="listorder ASC"}
                     {loop $data $r}
 
-                        <li {if $catid==$r['catid']}class="active"{/if} ><a href="{if $n==1}/{else}{$r[url]}{/if}">{$r['catname']} <span class="sr-only">(current)</span></a></li>
+                        <li {if $catid==$r['catid']|| $top_parentid==$r['catid']}class="active"{/if} ><a href="{if $n==1}/{else}{$r[url]}{/if}">{$r['catname']} <span class="sr-only">(current)</span></a></li>
                     {/loop}
                     {/PC}
 
