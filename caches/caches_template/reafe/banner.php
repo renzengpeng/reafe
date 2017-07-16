@@ -8,5 +8,5 @@
            <?php echo $data['0']['description'];?></div>
     </div>
 </div>
-
+<?php $this_description=$data[0]['description'];$this_catname=$data[0]['catname'];?>
 <?php if(defined('IN_ADMIN') && !defined('HTML')) {echo '</div>';}?>

@@ -66,7 +66,7 @@
                     <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=14d57e01db34b3a375b3b19368f80a54&action=category&catid=61&num=4&siteid=%24siteid&order=listorder+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'category')) {$data = $content_tag->category(array('catid'=>'61','siteid'=>$siteid,'order'=>'listorder ASC','limit'=>'4',));}?>
                     <?php $n=1;if(is_array($data)) foreach($data AS $r) { ?>
                     <div class="md5-item">
-                        <a href="<?php echo $r['url'];?>"><img src="<?php echo $r['image'];?>" alt="" style="width:100%">
+                        <a href="<?php echo $r['url'];?>"><img src="<?php echo $r['image1'];?>" alt="" style="width:100%">
                         <div class='md5-bg-text text-center'>
                             <h3><?php echo $r['catname'];?></h3>
                             <h4><?php echo $r['description_index'];?></h4>

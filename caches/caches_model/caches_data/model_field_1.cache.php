@@ -174,17 +174,14 @@ return array (
     'tips' => '多关键词之间用空格或者“,”隔开',
     'css' => '',
     'minlength' => '0',
-    'maxlength' => '40',
+    'maxlength' => '400',
     'pattern' => '',
     'errortips' => '',
     'formtype' => 'keyword',
-    'setting' => 'array (
-  \'size\' => \'100\',
-  \'defaultvalue\' => \'\',
-)',
+    'setting' => '',
     'formattribute' => '',
-    'unsetgroupids' => '-99',
-    'unsetroleids' => '-99',
+    'unsetgroupids' => '',
+    'unsetroleids' => '',
     'iscore' => '0',
     'issystem' => '1',
     'isunique' => '0',
@@ -196,8 +193,6 @@ return array (
     'listorder' => '7',
     'disabled' => '0',
     'isomnipotent' => '0',
-    'size' => '100',
-    'defaultvalue' => '',
   ),
   'copyfrom' => 
   array (
@@ -246,7 +241,7 @@ return array (
     'pattern' => '',
     'errortips' => '',
     'formtype' => 'textarea',
-    'setting' => '{"width":"98","height":"46","defaultvalue":"","enablehtml":"0"}',
+    'setting' => '{"width":"98","height":"46","defaultvalue":"","enablehtml":"1"}',
     'formattribute' => '',
     'unsetgroupids' => '',
     'unsetroleids' => '',
@@ -264,7 +259,7 @@ return array (
     'width' => '98',
     'height' => '46',
     'defaultvalue' => '',
-    'enablehtml' => '0',
+    'enablehtml' => '1',
   ),
   'updatetime' => 
   array (

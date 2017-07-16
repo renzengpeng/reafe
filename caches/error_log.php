@@ -3135,3 +3135,82 @@
 <?php exit;?>07-15 11:39:31 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
 <?php exit;?>07-15 11:39:37 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
 <?php exit;?>07-15 11:39:43 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-15 21:44:05 | 2 | mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>07-15 21:44:05 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>07-15 21:44:05 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>07-15 21:44:05 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>07-15 21:44:05 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>07-15 21:44:05 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>07-15 21:44:05 | 2 | mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>07-15 21:44:05 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>07-15 21:44:05 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>07-15 21:44:05 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>07-15 21:44:05 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>07-15 21:44:05 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>07-15 21:44:12 | 2 | mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) | phpcms\libs\classes\db_mysqli.class.php | 55
+<?php exit;?>07-15 21:44:12 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>07-15 21:44:12 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>07-15 21:44:12 | 2 | db_mysqli::errno(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 397
+<?php exit;?>07-15 21:44:12 | 2 | db_mysqli::error(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 390
+<?php exit;?>07-15 21:44:12 | 2 | mysqli::close(): Couldn't fetch mysqli | phpcms\libs\classes\db_mysqli.class.php | 409
+<?php exit;?>07-16 09:48:22 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:48:22 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:48:28 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:48:28 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:49:52 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:49:52 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:50:04 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:50:04 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:51:19 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:51:19 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:51:29 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:51:29 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:54:22 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:54:22 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 09:54:52 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:08:50 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:21:00 | 2 | require(D:\work\www\reafe\phpcms\modules\content\fields\\config.inc.php): failed to open stream: No such file or directory | phpcms\modules\content\sitemodel_field.php | 207
+<?php exit;?>07-16 10:24:30 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:34:05 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:34:05 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:48:08 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:52:09 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:52:09 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:56:01 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:56:01 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:56:09 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:56:09 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 10:58:35 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:00:23 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:00:23 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:01:17 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:01:17 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:02:17 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:02:17 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:11:07 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:11:13 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:11:31 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:15:33 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:15:33 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:15:51 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:15:51 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:18:44 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:18:44 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:18:47 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:18:47 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:18:53 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:18:53 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:19:03 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:19:03 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:19:50 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:19:50 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:20:43 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:20:43 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:21:35 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:23:01 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:23:06 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:23:11 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:23:15 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:25:01 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:25:04 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>07-16 11:25:10 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
